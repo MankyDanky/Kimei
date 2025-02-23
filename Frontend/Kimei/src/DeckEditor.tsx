@@ -95,6 +95,9 @@ function DeckEditor() {
         setActiveTab(0);
         if (card.image) {
             urltoImage(card.image)
+        } else {
+            setNewImage(null);
+            setImagePreview("");
         }
     }
 
